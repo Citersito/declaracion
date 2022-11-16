@@ -1,0 +1,63 @@
+body{
+    background-color: #000;
+    /* background-image: url(img/fondo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat; */
+    background-color: #000000;
+opacity: 1;
+background-image:  linear-gradient(#1f0000 2px, transparent 2px), linear-gradient(to right, #1f0000 2px, #000000 2px);
+background-size: 40px 40px;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#video{
+    border: 10px;
+    border-style: solid;
+    border-color: #a00215;
+    border-radius: 5%;
+    max-width: 70%;
+}
+@media (max-width:436px){
+    #video{
+        max-width: 100%;
+    }
+}
+button{
+    padding: 7px 20px;
+    font-size: 20px;
+    border-radius: 7%;
+    color: #fff;
+    background: none;
+    border: 2px;
+    border-style: solid;
+    border-color: #a00215;
+}
+p{
+    font-size: 24px;
+}
+
+
+#container{
+    max-width: 70%;
+    margin: auto;
+}
+/* #botones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} */
+
+#btn_si:hover{
+    border-color: green;
+}
+#btn_no:hover{
+    background-color: #a00215;
+
+}
+button:hover{
+    cursor: pointer;
+
+}
